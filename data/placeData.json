@@ -1,0 +1,74 @@
+[
+    {
+        "place_id": "201",
+        "place_img": "https://i.ibb.co/Fnrrw1z/cox-bazar.jpg",
+        "division_id": "101",
+        "place_title": "Cox's Bazar",
+        "division_title": "Chattagram",
+        "place_details": "Ad quis ullamco cillum veniam nisi nostrud nostrud velit occaecat tempor eu esse cillum. Mollit in in minim sunt. Elit dolore sit Lorem laboris esse consectetur."
+    },
+    {
+        "place_id": "202",
+        "place_img": "https://i.ibb.co/vxp29By/golden-temple.jpg",
+        "division_id": "101",
+        "place_title": "Golden Temple",
+        "division_title": "Chattagram",
+        "place_details": "Lorem cillum eu nisi est enim occaecat dolor esse ullamco occaecat. Amet laboris nulla velit et et Lorem culpa pariatur ullamco minim esse eiusmod laborum ea. Non ipsum reprehenderit mollit cillum sunt id proident qui incididunt do quis mollit sunt sit."
+    },
+    {
+        "place_id": "203",
+        "place_img": "https://i.ibb.co/qL84qHR/saint-martin.jpg",
+        "division_id": "101",
+        "place_title": "Saint Martin",
+        "division_title": "Chattagram",
+        "place_details": "Voluptate enim sint qui proident ullamco sunt sint. Enim cupidatat fugiat duis elit ullamco incididunt. Excepteur elit voluptate aliquip deserunt velit duis."
+    },
+    {
+        "place_id": "204",
+        "place_img": "https://i.ibb.co/z2QWN1V/humayun-tomb.jpg",
+        "division_id": "103",
+        "place_title": "Humayun Tomb",
+        "division_title": "Khulna",
+        "place_details": "Quis cupidatat ad eu ullamco laboris magna aliquip aliqua nisi. Aliquip enim duis irure aute irure tempor. Reprehenderit aliquip nisi dolor laborum et amet ex ut reprehenderit consectetur labore cillum."
+    },
+    {
+        "place_id": "205",
+        "place_img": "https://i.ibb.co/FWt0GH4/khan-mosque.jpg",
+        "division_id": "103",
+        "place_title": "Khan Mosque",
+        "division_title": "Khulna",
+        "place_details": "Commodo ea in pariatur fugiat. Pariatur et est sunt laborum ad voluptate amet. Excepteur magna enim cillum sit consectetur in magna commodo proident culpa deserunt aliqua sit adipisicing."
+    },
+    {
+        "place_id": "206",
+        "place_img": "https://i.ibb.co/HpszLJr/sundorbon.jpg",
+        "division_id": "103",
+        "place_title": "Sundorbon",
+        "division_title": "Khulna",
+        "place_details": "Eu pariatur id nulla ut exercitation aute excepteur id est ullamco adipisicing. Magna minim exercitation ex consequat laboris laboris anim ea adipisicing sint commodo. Esse et consectetur quis ad."
+    },
+    {
+        "place_id": "207",
+        "place_img": "https://i.ibb.co/VqhsHJt/jaflong.jpg",
+        "division_id": "102",
+        "place_title": "Jaflong",
+        "division_title": "Sylhet",
+        "place_details": "Aliquip deserunt in quis sit enim ipsum proident nulla pariatur. Lorem sunt ipsum ullamco est duis sint. Eiusmod Lorem officia est excepteur veniam consectetur culpa consequat occaecat sit occaecat id laboris."
+    },
+    {
+        "place_id": "208",
+        "place_img": "https://i.ibb.co/rkmhyTB/shahjalal-mazar.jpg",
+        "division_id": "102",
+        "place_title": "Shahajalal Mazar",
+        "division_title": "Sylhet",
+        "place_details": "Ut laboris nulla commodo non. Et eiusmod ad commodo in elit ex est ad. Ipsum amet ut deserunt sint deserunt ex."
+    },
+    {
+        "place_id": "209",
+        "place_img": "https://i.ibb.co/cgc0pkP/tea-garden.jp",
+        "division_id": "102",
+        "place_title": "Tea Garden",
+        "division_title": "Sylhet",
+        "place_details": "Est mollit dolore sunt aute id aliqua ex id non veniam labore. Aute cupidatat est anim mollit tempor. Mollit ex ut excepteur adipisicing est exercitation deserunt est veniam qui consectetur."
+    }
+]

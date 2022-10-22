@@ -1,0 +1,20 @@
+[
+    {
+        "division_id": "101",
+        "division_title": "Chattagram",
+        "division_img": "https://i.ibb.co/7p31pHD/chattagram.jpg",
+        "division_details": "Eu non qui id do voluptate ipsum aliquip eu. Anim exercitation eu dolore aliqua ad mollit. Excepteur Lorem exercitation mollit do proident."
+    },
+    {
+        "division_id": "102",
+        "division_title": "Sylhet",
+        "division_img": "https://i.ibb.co/YyXwcxy/khulna.jpg",
+        "division_details": "Commodo pariatur dolore in tempor anim in. Sunt eiusmod sit cillum laboris ut reprehenderit. Cillum consectetur eu ullamco consequat velit occaecat deserunt ut."
+    },
+    {
+        "division_id": "103",
+        "division_title": "Khulna",
+        "division_img": "https://i.ibb.co/LNHSWBk/sylhet.jpg",
+        "division_details": "Cillum culpa sunt sit in in commodo ex. Deserunt deserunt sunt cupidatat Lorem laboris ea commodo nisi culpa veniam. Amet irure quis pariatur enim velit."
+    }
+]
