@@ -21,13 +21,13 @@ app.get("/divisions", (req, res) => {
 
 app.get("/division/id/:division_id", (req, res) => {
     const id = req.params.division_id;
-    const division = divisionData.find(div => div.division_id === id);
+    const division = divisionData.find(div => div.division_id === id) || [];
     res.send(division);
 });
 
 app.get("/division/title/:division_title", (req, res) => {
     const title = req.params.division_title;
-    const division = divisionData.find(div => div.division_title.toLowerCase() === title.toLocaleLowerCase());
+    const division = divisionData.find(div => div.division_title.toLowerCase() === title.toLocaleLowerCase()) || [];
     res.send(division);
 });
 
@@ -38,19 +38,19 @@ app.get("/places", (req, res) => {
 
 app.get("/place/id/:place_id", (req, res) => {
     const id = req.params.place_id;
-    const place = placeData.find(place => place.place_id === id);
+    const place = placeData.find(place => place.place_id === id) || [];
     res.send(place);
 });
 
 app.get("/places/division_id/:division_id", (req, res) => {
     const id = req.params.division_id;
-    const places = placeData.filter(place => place.division_id === id);
+    const places = placeData.filter(place => place.division_id === id) || [];
     res.send(places);
 });
 
 app.get("/places/division_title/:division_title", (req, res) => {
     const title = req.params.division_title;
-    const places = placeData.filter(place => place.division_title.toLowerCase() === title.toLowerCase());
+    const places = placeData.filter(place => place.division_title.toLowerCase() === title.toLowerCase()) || [];
     res.send(places);
 });
 
@@ -61,19 +61,19 @@ app.get("/hotels", (req, res) => {
 
 app.get("/hotel/id/:hotel_id", (req, res) => {
     const id = req.params.hotel_id;
-    const hotel = hotelData.find(hotel => hotel.hotel_id === id);
+    const hotel = hotelData.find(hotel => hotel.hotel_id === id) || [];
     res.send(hotel);
 });
 
 app.get("/hotels/place_id/:place_id", (req, res) => {
     const id = req.params.place_id;
-    const hotels = hotelData.filter(hotel => hotel.place_id === id);
+    const hotels = hotelData.filter(hotel => hotel.place_id === id) || [];
     res.send(hotels);
 });
 
 app.get("/hotels/division_title/:division_title", (req, res) => {
     const title = req.params.division_title;
-    const hotels = hotelData.filter(hotel => hotel.division_title.toLowerCase() === title.toLowerCase());
+    const hotels = hotelData.filter(hotel => hotel.division_title.toLowerCase() === title.toLowerCase()) || [];
     res.send(hotels);
 });
 
