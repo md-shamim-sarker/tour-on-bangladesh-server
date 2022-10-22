@@ -19,3 +19,8 @@ https://tour-on-bangladesh-server.vercel.app/hotels
 https://tour-on-bangladesh-server.vercel.app/hotel/id/301
 https://tour-on-bangladesh-server.vercel.app/hotels/place_id/201
 https://tour-on-bangladesh-server.vercel.app/hotels/division_title/chattagram
+
+## Update vercel api
+```bash
+vercel --prod
+```
