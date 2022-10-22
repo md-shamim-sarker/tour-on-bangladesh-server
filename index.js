@@ -1,8 +1,8 @@
-import express from 'express';
-import cors from 'cors';
-import divisionData from './data/divisionData.json' assert {type: "json"};
-import placeData from './data/placeData.json' assert {type: "json"};
-import hotelData from './data/hotelData.json' assert {type: "json"};
+const express = require('express');
+const cors = require('cors');
+const divisionData = require('./data/divisionData.json');
+const placeData = require('./data/placeData.json');
+const hotelData = require('./data/hotelData.json');
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -11,7 +11,7 @@ app.use(cors());
 
 // API Test
 app.get("/", (req, res) => {
-    res.send("<h1>This server is working fine.</h1>");
+    res.send("This server is working fine.");
 });
 
 // Division Data
